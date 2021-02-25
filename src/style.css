@@ -1,0 +1,69 @@
+.container {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: solid rgb(67, 123, 245) 2px;
+  border-radius: 5px;
+  padding: 10px;
+  background-image: linear-gradient(
+    -225deg,
+    #225baf 0%,
+    #b8dcff 48%,
+    #42a2f7 100%
+  );
+}
+.majorLocations {
+  margin-bottom: 20px;
+}
+.placeOptions {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #225baf;
+  border: 2px solid #627c94;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  display: block;
+  margin: auto;
+  transition: all 100ms ease-in-out;
+}
+.placeOptions:hover {
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  color: #2660b6;
+  border: 2px solid transparent;
+}
+.searchRow {
+  margin: 30px 30px;
+}
+#enterCity {
+  display: block;
+  width: 180px;
+  height: 40px;
+  font-size: larger;
+}
+.searchCity {
+  display: block;
+  margin: 0 auto;
+}
+.currentDay {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.dayIcon {
+  padding-right: 0;
+}
+#location {
+  text-transform: capitalize;
+}
+
+.units {
+  text-decoration: none;
+}
+
+.dateTimePrecipitation {
+  list-style-type: none;
+}
+.fiveDay {
+  margin-left: 150px;
+  padding-right: 100px;
+}
+.fiveDayIcon {
+  color: rgb(243, 243, 243);
+  opacity: 100%;
+}

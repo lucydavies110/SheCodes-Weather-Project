@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/6308250f53.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="row majorLocations">
+        <div class="col">
+          <button class=placeOptions>London</button>
+        </div>
+        <div class="col">
+          <button class=placeOptions>New York</button>
+        </div>
+        <div class="col">
+          <button class=placeOptions>Paris</button>
+        </div>
+      </div>
+
+ <form  action="">
+   <div class="row searchRow">
+   <div class="col-6">
+ <input id="enterCity"
+          type="search"
+          placeholder="Enter City...        🔍"
+          autofocus="on"
+          autocomplete="off"
+          id="city-input"
+        />
+   </div>
+       <div class="col-3">
+<input class="btn btn-outline-dark searchCity" type="submit" value="Search">
+     </div>
+     <div class="col-3">
+<button class="btn btn-outline-dark" id="currentLocation">Current Location</button>
+     </div>
+     </div>
+</form> 
+       
+<div class="row currentDay">
+    <div class="col-2 dayIcon ">
+      <h1><i class="fas fa-cloud"></i></h1>
+    <h5 class="day" id="description">Cloudy</h5>
+    <div>
+      <span class="temperature" id="temperature">
+19
+      </span>
+<span >
+  <a href="" class="units" id="celcius-link">°C</a> |
+  <a href="" class="units" id="fahrenheit-link">°F</a>
+
+</span>
+
+    </div>
+    </div>
+    <div class="col-4 details">
+      <h3 id="location"></h3>
+      <ul class="dateTimePrecipitation"><li id="dateTime"> </li>  <li id="humidity"> </li> <li id="windSpeed"></li>
+    </div>
+  </div>
+  
+  
+
+
+
+      
+        <div class="row fiveDay">
+          <div class="col-sm-2">
+            <div class="singleDay" style="width: 18rem">
+              <h5 class="day">Sat</h5>
+              <h1><i class="fas fa-cloud-sun fiveDayIcon"></i></h1>
+              <h3 class="dayTemperature">1° / -1°</h3>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="singleDay" style="width: 18rem">
+              <h5 class="day">Sun</h5>
+              <h1><i class="fas fa-cloud-rain fiveDayIcon"></i></h1>
+              <h3 class="dayTemperature">5° / 4°</h3>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="singleDay" style="width: 18rem">
+              <h5 class="day">Mon</h5>
+              <h1><i class="fas fa-cloud-rain fiveDayIcon"></i></h1>
+              <h3 class="dayTemperature">7° / 4°</h3>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="singleDay" style="width: 18rem">
+              <h5 class="day">Tues</h5>
+              <h1><i class="fas fa-cloud-rain fiveDayIcon"></i></h1>
+              <h3 class="dayTemperature">5° / 1°</h3>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="singleDay" style="width: 18rem">
+              <h5 class="day">Wed</h5>
+              <h1><i class="fas fa-cloud-rain fiveDayIcon"></i></h1>
+              <h3 class="dayTemperature">6° / 3°</h3>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
