@@ -1,13 +1,16 @@
 .container {
+  max-width: 600px;
+  min-height: 700px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border: solid rgb(67, 123, 245) 2px;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 50px;
+  margin-top: 40px;
+  padding: 20px;
   background-image: linear-gradient(
     -225deg,
-    #225baf 0%,
-    #b8dcff 48%,
-    #42a2f7 100%
+    #22104b 0%,
+    #62689e 48%,
+    #0d4374 100%
   );
 }
 .majorLocations {
